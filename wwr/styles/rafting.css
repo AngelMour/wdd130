@@ -24,13 +24,18 @@
 main {
     max-width: 800px;
     text-align: left;
-    position: relative;
 }
 
 .hero {
     position: relative;
     margin: 10px auto;
     padding: 0;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 h1 {
@@ -45,12 +50,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center; 
-}
-
-.hero img{
-    display: block;
-    width: 100%;
-    height: auto;
 }
 
 article {
@@ -71,17 +70,15 @@ main img{
     display: block;
     width: 50%;
     height: auto;
-    position: relative;
 }
 
 section {
     width: 60rem;
     text-align: left;
-    position: relative;
 }
 
 h2 {
-    position: relative;
+    
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
@@ -96,7 +93,6 @@ footer{
     margin-top: 5px;
     border-top: 1px solid #000;
     text-align: left;
-    position: absolute;
     padding: 5px;
 }
 
@@ -105,7 +101,6 @@ footer{
     display: block;
     width: 100%;
     height: auto;
-    position: relative;
 }
 
 a:link { 
