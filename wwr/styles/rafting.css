@@ -9,7 +9,7 @@
 :root {
     --primary-color: #E9C46A;
     --secondary-color: #2A9D8F ;
-    --accent1-color: #E76F51 ;
+    --accent1-color: #e76f5123 ;
     --accent2-color: #264653;
 
     --heading-font:'Permanent Marker', cursive;
@@ -22,71 +22,105 @@
 }
 
 main {
-    max-width: 800px;
+    max-width: 950px;
     text-align: left;
 }
 
 .hero {
     position: relative;
-    margin: 10px auto;
-    padding: 0;
+    margin: 1px auto;
+    max-width: 950px;
+    padding: 1px;
 }
 
 .hero img{
     display: block;
     width: 100%;
     height: auto;
+    position: absolute;
+    padding: 0;
+    z-index: -1;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     font-family: var(--paragraph-font);
     width: 100%;
     height: auto;
-    padding: 20px;
+    padding: 0;
+    margin-top: 25px;
     text-align: center;
-    color: var(--accent1-color);
-    background-color:#00000011;
+    color: var(--primary-color);
+    background-color:#0000006c;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    z-index: 1;
 }
 
-article {
+.hero article {
     position: absolute;
-    box-shadow: 0 0 30px #11111138;
+    margin-top: 100px;
+    box-shadow: 0 0 30px #111111b0;
 	opacity: 0.9;
-    width: 150px;
+    width: 100%;
     height: auto;
+    z-index: 2;
+
+}
+
+.hero article img {
+    float: right;
+    width: 100px;
+    height: auto;
+    margin-top: 35px;
+    margin-left: 700px;
+}
+
+.hero article p {
+    float: left;
+    padding: 10px;
+    width: 750px;
+    height: 130px;
+    margin-left: 80px;
+    margin-top: 15px;
+    background-color:var(--accent1-color);
+    color: var(--primary-color);
+    
 }
 
 body {
     font-family: var(--heading-font);
     max-width: 960px;
-    padding: 20px;
+    padding: 1px;
   }
   
 main img{
     display: block;
     width: 50%;
     height: auto;
+    padding-top: 5px;
 }
 
 section {
     width: 60rem;
     text-align: left;
+    margin-top: 15px;
 }
 
-h2 {
+h2 { 
     
     font-family: var(--paragraph-font);
     max-width: 960px;
-    padding: 20px;
-    color: var(--accent1-color)
+    margin-top: 150px;
+    padding: 15px;
+    color: var(--accent2-color)
 }
 
 p {
     padding: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 footer{
