@@ -30,7 +30,7 @@ main {
 .hero {
     position: relative;
     margin: 10px auto;
-    padding: auto;
+    padding: 0;
 }
 
 h1 {
