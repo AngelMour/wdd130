@@ -78,7 +78,6 @@ main {
     margin-top: 15px;
     margin-left: 670px;
     background-color:var(--accent1-color);
-    background-size: 850;
     color: var(--primary-color);
 }
 
@@ -92,7 +91,6 @@ main {
     margin-left: 120px;
     margin-top: 15px;
     background-color:var(--accent1-color);
-    background-size: 850;
     color: var(--primary-color);
     text-align: left;
     
@@ -120,7 +118,7 @@ h2 {
 }
 
 h3 { 
-    font-size: 35px;
+    font-size: 33px;
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 0;
