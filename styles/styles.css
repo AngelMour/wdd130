@@ -65,6 +65,8 @@ main img{
     float: right;
 }
 footer{
+    max-width: 840px;
+    margin: 0 auto;
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
@@ -78,7 +80,7 @@ background-color: #ddd;
 color: #000;
 }
 
-header, footer {
+header {
     max-width: 840px;
     margin: 0 auto;
 }
