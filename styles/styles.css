@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+
+header, footer, .grid {
+    margin: 0 auto;
+    max-width: 840px;
+}
+
 nav {
     background-color: steelblue;
     padding: 1rem;
@@ -87,9 +93,4 @@ color: #000;
 
 li {
     margin-left: 1rem;
-}
-
-header, footer, .grid {
-    margin: 0 auto;
-    max-width: 840px;
 }
