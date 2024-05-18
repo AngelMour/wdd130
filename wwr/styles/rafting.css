@@ -194,7 +194,6 @@ header img {
 }
 
 .navigation li {
-	flex: 1fr 1fr 1fr 1fr;
     max-width: 100%;
 }
 
@@ -217,7 +216,6 @@ header img {
 figure{
     display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 2;
     justify-content: space-between;
 }
 
@@ -252,11 +250,6 @@ footer{
 footer nav{
     display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-    align-self: right;
-}
-
-.sociallinks {
-    align-self: right;
 }
 
 .sociallinks img {
