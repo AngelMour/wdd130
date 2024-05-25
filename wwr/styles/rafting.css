@@ -251,7 +251,7 @@ figcaption {
 
 footer{
     display: grid;
-	grid-template-columns: 3fr 1fr;
+	grid-template-columns: 1fr 2fr 1fr;
     margin-top: 5px;
     border-top: 1px solid #000;
     text-align: center;
@@ -268,7 +268,7 @@ footer nav{
 }
 
 footer p {
-    text-align: right;
+    text-align: left;
 }
 a:link { 
     text-decoration: none; 
