@@ -134,6 +134,17 @@ section {
 	text-align: start;
     text-align: justify;
 }
+
+h1 {
+    font-family: var(--paragraph-font);
+    font-size: 30px;
+    max-width: 960px;
+    margin-top: 1px;
+    padding: 0;
+    color: var(--accent2-color);
+    text-align: center; 
+}
+
 h2 { 
     font-family: var(--paragraph-font);
     font-size: 30px;
@@ -272,10 +283,6 @@ a:link {
     text-decoration: none; 
   }
 
-
-
-
-
 form {
     width: 650px;
     margin: 0 auto;
@@ -299,7 +306,7 @@ color: navy;
 font-size: 1.3em;
 }
 
-label, input, button,select, textarea {
+label, input, button,select {
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -308,7 +315,7 @@ label {
     padding-right: 1rem;
 }
 
-input, select, textarea {
+input, select {
     padding: 0.5rem;
     font-size: 1.1rem;
 }
@@ -333,18 +340,8 @@ button:hover {
     background-color: darkgreen;
 }
 
-footer {
-    margin: 1rem auto 0;
-    width: 650px;
-    text-align: center;
-    font-size: 0.8em;
-    color: #777;
-    border-top: 1px solid #ccc;
-}
-
 .form-item {
     display: grid;
-    align-items: left;
 }
 
 .column1 {
@@ -360,7 +357,10 @@ footer {
 }
 
 textarea {
+    font-family: 'Times New Roman', Times, serif;
     width: 350px;
+    padding: 0.5rem;
+    font-size: 1.1rem;
 }
 
 input[type="radio"] {
