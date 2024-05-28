@@ -224,6 +224,39 @@ header img {
     justify-content: space-around;
 }
 
+.book{
+    width: 40%;
+    margin-left: 33%;
+    margin-right: 40%
+}
+
+
+.trips {
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+
+.trips figure {
+    display: grid;
+	grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+}
+
+.trips figure img {
+    grid-column: 1;
+    width: 300px;
+    height: auto;
+}
+
+.trip figure p {
+    grid-row: 2;
+}
+
+.trip figure h3 {
+    max-height: 50px;
+}
+
 figure{
     display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
