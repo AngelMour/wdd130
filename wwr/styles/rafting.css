@@ -442,6 +442,7 @@ input[type="radio"] {
     vertical-align: bottom;
 }
 
+/* information calss selector */
 .information {
     display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
