@@ -441,3 +441,29 @@ input[type="radio"] {
     height: 22px;
     vertical-align: bottom;
 }
+
+.information {
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+
+.information figure {
+    display: grid;
+	grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+}
+
+.information figure img {
+    grid-column: 1;
+    width: 300px;
+    height: auto;
+}
+
+.information figure p {
+    grid-row: 2;
+}
+
+.information figure h3 {
+    max-height: 50px;
+}
