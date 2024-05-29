@@ -28,6 +28,37 @@ main {
     text-align: left;
 }
 
+
+.home {
+    display: grid;
+	grid-template-columns: 1fr;
+    justify-content: space-around;
+}
+
+.home img {
+    grid-column: 1;
+    width: 950px;
+    height: auto;
+    padding: 0;
+}
+
+.home h3 {
+    text-align: center;
+}
+
+.book-home{
+    width: 40%;
+    margin-left: 33%;
+    margin-top: 50px;
+    margin-right: 40%;
+    background-color: rgb(187, 87, 5);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
 .hero {
     position: relative;
     margin: 1px auto;
